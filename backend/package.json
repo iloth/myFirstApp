@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm run build && cd ..",
+    "start": "node server.js",
+    "buildandstart": "npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@fastify/static": "^6.4.0",
+    "config": "^3.3.7",
+    "fastify": "^4.2.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

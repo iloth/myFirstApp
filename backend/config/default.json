@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "auth": {
+    "accessTokenKey": "Cras molestie turpis ac felis dictum, quis tempor velit luctus.",
+    "refreshTokenKey": "Sed in lacus elementum, pellentesque ligula a, facilisis nisl. Proin.",
+    "tokenExpire": "24h"
+  }
+}

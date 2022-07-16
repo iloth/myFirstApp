@@ -1,0 +1,14 @@
+{
+  "client": [
+    { "path": "/login", "anonymus": true },
+    { "path": "/admin/*", "roles": ["admin"] },
+    { "path": "/features", "anonymus": true },
+    { "path": "/pricing", "roles": ["admin", "employee"] }
+  ],
+  "api": [
+    { "path": "^/api/auth/login$", "method": "POST", "anonymus": true },
+    { "path": "^/api/users$", "method": "*", "roles": ["admin"] },
+    { "path": "^/api/users/", "method": "*", "roles": ["admin"] }
+  ]
+
+}
